@@ -1,0 +1,122 @@
+*,*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: "Open Sans";
+}
+.l1{
+ height: 100vh; 
+ display: flex;
+ position: relative;
+ z-index: -1;
+ align-items: left;
+ font-size: 25px;
+ background: url("img/hero.png");
+ background-size: 35%;
+ background-repeat: no-repeat;
+ background-position: right top;
+ flex-direction: column;
+ justify-content: center;
+}
+.l1 h1,h5{
+margin: 10px 80px;
+padding-right: 100px;
+}
+.l1 h5{
+    color: rgb(46, 45, 45);
+}
+.l1 button {
+    background-color: #D5B981;
+    border-color: black;
+    width: 15%;
+    padding: 15px 0px;
+    margin: 10px 80px;
+}
+.l2{
+    padding: 0px 40px;
+    margin: 50px 0 0 0;
+    margin-left: 200px;
+}
+.imgcard{
+    width: 100%;
+    min-width: 300px;
+    display: flex;
+}
+.imgcard img{
+    width: 30%;
+    position: relative;
+    margin-left: 40px;
+}
+.imgcard h1,h4,span,button{
+    margin: 10px 30px;
+} 
+.learn {
+    display: flex;
+    flex-direction: column;
+    margin: 5px 0;
+}
+.learn h4{
+    color: rgb(83, 81, 81);
+    font-size: 20px;
+
+}
+.learn span{
+    font-family: "Open Sans";
+    color: rgb(110, 105, 105);
+    font-size: 17px;
+}
+.learn button{
+    background-color: white;
+    border-color: black;
+    width: 40%;
+    padding: 15px 0px;
+    margin: 10px 80px;   
+}
+.l3{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.l3 h4 {
+    color: rgb(110, 105, 105);
+    margin-bottom: 0;
+}
+.l4{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    box-sizing: border-box;
+}
+.service{
+    position: relative;
+    display: block;
+    background-color: rgb(216, 202, 202);
+    background-size: 30%;
+}
+.service img {
+    width: 60%;
+    position: relative;
+    margin-left: 20%;
+}
+.service p,img,span,button {
+    margin: 20px 10px;
+    
+}
+.service p {
+    font-size: large;
+    padding-left: 150px;
+}
+.service span {
+    color: rgb(110, 105, 105);
+}
+.service button{
+    background-color: white;
+    border-color: black;
+    width: 20%;
+    height: 10px;
+    padding: 15px 0px;
+    margin: 10px 80px; 
+    margin-left: 150px;
+}
